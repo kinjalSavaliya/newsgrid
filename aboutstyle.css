@@ -1,0 +1,204 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #f3f3f3;
+}
+#navigationbar_container{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+#navigationbar_container .navigationbar_bcakground{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+     max-width: 1000px;
+   margin: 0 auto;
+   height: 80px;
+}
+#navigationbar_container .navigationbar_bcakground .logo{
+    align-self: center;
+}
+#navigationbar_container .navigationbar_bcakground .logo img{
+    width:190px;
+
+  /* height:auto; */
+}
+#navigationbar_container .navigationbar_bcakground .social_icon{
+    align-self: center;
+    color: #777;
+}
+#navigationbar_container .navigationbar_bcakground .social_icon a{
+    text-decoration: none;
+}
+#navigationbar_container .navigationbar_bcakground .social_icon i{
+    padding: 7px;
+    color: #777;
+}
+#navigationbar_container .navigationbar_bcakground .menu {
+    align-self: center;
+    justify-self: end;
+    font-weight: bold;
+}
+#navigationbar_container .navigationbar_bcakground .menu ul{
+    display: flex;
+    list-style:none;
+}
+#navigationbar_container .menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(51, 50, 50);
+    padding: 20px 20px;
+    align-items:center;
+}
+#navigationbar_container .menu ul li:nth-child(2){
+    background-color: #c72727;
+}
+#navigationbar_container .navigationbar_bcakground .menu ul li a:hover{
+    background-color: #f3f3f3;
+}
+#section{
+    position: absolute;
+    top:80px;
+    left:0;
+}
+#section .about_content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+    margin-top: 30px;
+    max-width:1100px;
+    margin: 30px auto;
+   column-gap: 30px;
+}
+#section .about_content .content1{
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+}
+#section .about_content .content1 h1{
+    font-size:35px;
+}
+#section .about_content .content1 p{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 1.5rem;
+}
+#section .about_content .content2{
+    color: white;
+}
+#section .about_content .content2 .abc{
+    background-color: #c72727;
+    padding: 20px;
+}
+#section .about_content .content2 h1{
+    font-size: 20px;
+}
+#section .about_content .content2 p{
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 1.5rem;
+}
+#section .about_content .content2 a{
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+    padding: 8px 0;
+    margin-top: 10px;
+    color: white;
+}
+#section .about_content .content2 a:hover{
+    background-color: rgb(65, 41, 41);
+}
+
+#footer{
+    background-color:  #333;;
+    color: white;
+    margin-top: 30px;
+}
+#footer .footer_background {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 250px 50px; */
+    grid-gap: 20px 20px;
+    padding: 32px;
+    margin: 0px 150px;
+}
+#footer .footer_background .content5{
+    grid-column: 1/span 4;
+    background-color: #444;
+   
+}
+#footer .footer_background .content5 p{
+  text-align: center;
+  padding: 10px 0;
+}
+#footer .footer_background .content1 img{
+    width: 70%;
+}
+#footer .footer_background .content1 p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+#footer .footer_background .content2 h3{
+    font-size: 17px;
+    font-weight: bold;
+} 
+#footer .footer_background .content2 p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+#footer .footer_background .content2 input{
+    width: 95%;
+    height:30px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+#footer .footer_background .content2 button{
+    width: 95%;
+    height:30px;
+    margin-top: 10px;
+    background-color: #c72727;
+    border: none;
+    color: white;
+}
+#footer .footer_background .content3 h3{
+    font-size: 17px;
+}
+#footer .footer_background .content3 ul li{
+    list-style: none;
+    border-bottom: 2px dotted  #444;
+    width: 90%;
+    padding: 10px 0;
+}
+#footer .footer_background .content3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+#footer .footer_background .content4 h2{
+    font-size: 20px;
+}
+#footer .footer_background .content4 p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+#footer .footer_background .content4 a{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #f99500;
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#footer .footer_background .content5 p{
+    font-size: 13px;
+}
+
